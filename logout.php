@@ -7,6 +7,7 @@ unset($_SESSION['SESS_USERNAME']);
 unset($_SESSION['SESS_USERID']);
 
 session_destroy();
-header("Location is: ". $config_basedir);
+header("Location : ". $config_basedir);
+header("cart Location is : ". $config_basedir);
 require("footer.php");
 ?>
