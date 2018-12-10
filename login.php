@@ -34,7 +34,7 @@ else
 require("header.php");
 ?>
 <h1>Customer Login</h1>
-Please enter your username and password to log into the websites. If you do not have an account, you can get one for free by <a href="register.php">registering</a>.
+Please enter your username and password to log into the . If you do not have an account, you can get one for free by <a href="register.php">registering</a>.
 <p>
 <?php
 if(isset($_GET['error'])) {
