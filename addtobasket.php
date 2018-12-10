@@ -65,7 +65,7 @@ echo "<option>" . $i . "</option>";
 }
 echo "</select></td>";
 echo "<td><strong>&pound;". sprintf('%.2f', $prodrow['price']) . "</strong></td>";
-echo "<td><input type='submit' name='submit' value='Add to cart'></td>";
+echo "<td><input type='submit' name='submit' value='Add to cart'>hello</td>";
 echo "</tr>";
 echo "</table>";
 echo "</form>";
